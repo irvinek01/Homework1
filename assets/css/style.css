@@ -1,3 +1,4 @@
+/* All CSS style codes corresponds with order on all elements in HTML */
 /* Universal */
 * {
     box-sizing: border-box;
@@ -57,13 +58,12 @@ giving a unique and catchy business trademark */
 }
 
 /* The commercial image that can be first seen upon visiting the page */
-.hero {
+.hero img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover;
+    background-position: center; */
 }
 
 /* Refers to the 3 Long Horizontally Blue boxes main parent */
